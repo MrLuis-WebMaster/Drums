@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function(){
 })
 
 function IniciarApp() {
+    window.addEventListener("click",AudioTecla)
+    window.addEventListener("click",AnimacionTecla)
     window.addEventListener("keydown", AudioTecla);
     window.addEventListener("keydown", AnimacionTecla)
 
